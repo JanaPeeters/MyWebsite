@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>MyPortfolio</title>
+    <title>Jana Peeters</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
@@ -12,18 +12,26 @@
 <body>
 
     <div class="navbar">
-        <a href="https://www.linkedin.com/in/jana-peeters-3b87a1203/">LinkedIn</a>
-        <a href="https://www.instagram.com/janapeeters.design/">Instagram</a>
-        <a href="https://www.behance.net/janapeetersportfolio">Portfolio</a>
-        <a href="http://127.0.0.1:5500/index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Cases 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+          <a href="case1.html">Case 1</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Case 2</a>
+          <a href="https://www.youtube.com/watch?v=mzJj5-lubeM">Case 3</a>
+        </div>
+          </div> 
+      <a href="https://www.linkedin.com/in/jana-peeters-3b87a1203/">LinkedIn</a>
+      <a href="https://www.instagram.com/janapeeters.design/">Instagram</a>
+      <a href="https://www.behance.net/janapeetersportfolio">Behance</a>
+      <a href="http://127.0.0.1:5500/index.html">Home</a>
     </div>
 
     <div class="header">
-        <h1>My Website</h1>
-        <p>Hi, welcome! Here you can get to know me a little bit better.</p>
+        <h1>Hi, welcome!</h1>
+        <p>Here you can get to know me a little bit better as a young product designer.</p>
     </div>
-
-
 
     <div class="row">
         <div class="side">
@@ -61,16 +69,38 @@
 
             <h4>Exchange Semester | Metropolia UAS Helsinki</h4>
             <p>August 2022 - December 2022</p>
-            
-            
         </div>
     </div>
+
+    <div class="container">
+
+        <h2>Contact form</h2>
+        <form action="action_page.php">
+      
+          <label for="fname">First name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+      
+          <label for="lname">Last name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email...">
+      
+          <label for="subject">What is your question?</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
     <div class="footer">
         <h2>Contact</h2>
         <p>Houten Schoen 30, 9100 Sint-Niklaas</p>
-        <p>peetersjana01@gmail.com</p>
+        <p>Jana.Peeters@UGent.be</p>
         <p>+32 497 34 94 75</p>
+        <br>
+        <p>© Jana Peeters</p>
     </div>
 
 </body>
